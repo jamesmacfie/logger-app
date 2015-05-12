@@ -19,3 +19,13 @@ There's a few packages that I've pulled in to help get this working nicely:
 [iron:router](https://atmospherejs.com/iron/router): Routing. Iron router is the defacto routing solution for Meteor apps.
 
 [momentjs:moment](https://atmospherejs.com/momentjs): Date time formatting. Moment is a neat library for dealing with dates and times.
+
+#### To Run ####
+
+```
+git clone https://github.com/jamesmacfie/logger-app.git
+
+cd logger-app
+
+meteor
+```
