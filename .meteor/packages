@@ -9,11 +9,9 @@ insecure
 fourseven:scss
 iron:router
 momentjs:moment
-sacha:spin
 accounts-base
 accounts-password
 ian:accounts-ui-bootstrap-3
 twbs:bootstrap
 aldeed:simple-schema
 aldeed:collection2
-mrt:reactive-publish
