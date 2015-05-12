@@ -1,0 +1,11 @@
+<template name="loo">
+	<div class="list-group-item">
+		<h4 class="list-group-item-heading">{{name}}</h4>
+		<p class="list-group-item-text">{{description}}</p>
+		{{#if latestDataPoint}}
+			In use
+		{{else}}
+			Free
+		{{/if}}
+	</div>
+</template>

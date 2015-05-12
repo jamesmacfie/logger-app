@@ -1,0 +1,12 @@
+<template name="location">
+	<div class="panel panel-default">
+		<div class="panel-heading">{{name}}</div>
+		<div class="panel-body">
+			<div class="list-group">
+				{{#each loos}}
+					{{> loo}}
+				{{/each}}
+			</div>
+		</div>
+	</div>
+</template>
