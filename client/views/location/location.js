@@ -4,6 +4,9 @@
  * Helper functions for the `Location` template
  */
 Template.location.helpers({
+	/**
+	 * Grab all loos for this location
+	 */
 	loos: function() {
 		return Loos.find({
 			_id: {
